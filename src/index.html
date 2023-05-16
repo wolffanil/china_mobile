@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icons/fav.svg" type="image/x-icon" />
+    <title>GoGo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header" class="open">
+      <div class="nav">
+        <nav class="menu">
+          <img src="./icons/Logo.svg" alt="logo" class="menu__logo" />
+
+          <ul class="menu__items">
+            <li class="menu__item">
+              <a href="#imagination" class="menu__link">Вдохновения</a>
+            </li>
+            <li class="menu__item">
+              <a href="#recomendation" class="menu__link">Места</a>
+            </li>
+            <li class="menu__item">
+              <a href="#video" class="menu__link">Видео</a>
+            </li>
+          </ul>
+
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+        </nav>
+      </div>
+      <div class="container">
+        <h1 class="open__title">
+          Откройте для себя удивительные места в Китае
+        </h1>
+        <p class="open__subtitle">
+          Незабываемый тур по Китаю, с нами вы посетите многи <br />памятники
+          культуры, посетить самые интересные места и <br />
+          ощутить все краски этой страны
+        </p>
+
+        <form class="open__form">
+          <div class="open__form-block">
+            <div class="open__form-block-one">
+              <span class="cirlce"></span>
+
+              <label for="name" class="open__label">Напишите ваше имя</label>
+            </div>
+            <input type="text" name="name" required class="open__input-name" />
+          </div>
+
+          <div class="open__form-block">
+            <div class="open__form-block-one">
+              <span class="cirlce"></span>
+              <label for="tel" class="open__label"
+                >Напишите ваш номер телефона</label
+              >
+            </div>
+            <input type="tel" name="tel" required class="open__input-telefon" />
+          </div>
+
+          <button type="submit" class="open__btn">Отправить</button>
+        </form>
+      </div>
+    </header>
+
+    <div id="advantages" class="advantages">
+      <div class="container">
+        <div class="advantages__block">
+          <h2 class="advantages__title">Наши преимущества</h2>
+
+          <div class="advantages__wrapper">
+            <div class="advantages__item">
+              <img
+                src="./icons/Priveleg/IconHebei.png"
+                alt="Hebei"
+                class="advantages__img"
+              />
+              <div class="advantages__subtitle">Добро пожаловать в Хэбэй!</div>
+              <p class="advantages__des">
+                Хэбэй входит в число 3 наиболее известных провинций, посетив его
+                вы сможете прочувствовать на себе все краски культуры китая!
+              </p>
+            </div>
+            <div class="advantages__item">
+              <img
+                src="./icons/Priveleg/IconGuid.png"
+                alt="Guid"
+                class="advantages__img"
+              />
+              <div class="advantages__subtitle">Ваш личный гид по Китаю</div>
+              <p class="advantages__des">
+                Мы предлагаем вам услуги нашего гида. Он поможет вам общаться с
+                местными жителями и проведет вас по самым живописным местам.
+              </p>
+            </div>
+            <div class="advantages__item">
+              <img
+                src="./icons/Priveleg/IconBuilding.png"
+                alt="Build"
+                class="advantages__img"
+              />
+              <div class="advantages__subtitle">Лучший путеводитель</div>
+              <p class="advantages__des">
+                Следуя нашим советам вы сможете посетить различные культурные
+                памятники и насладится своей поездкой в полной мере
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <section id="imagination" class="imagination">
+      <div class="container">
+        <h2 class="imagination__title">
+          Получите вдохновение для следующей поездки
+        </h2>
+        <span class="imagination__line"></span>
+
+        <div class="imagination__wrapper">
+          <div class="imagination__wrapper-block">
+            <div class="imagination__img">
+              <img
+                src="./img/Imaginetion/Montain.jpg"
+                alt="Gora"
+              />
+            </div>
+            <div class="imagination__img">
+              <img
+                src="./img/Imaginetion/Streat.jpg"
+                alt="Street"
+              />
+            </div>
+          </div>
+          <div class="imagination__wrapper-block-2">
+            <div class="imagination__img">
+              <img
+                src="./img/Imaginetion/streetcite.jpg"
+                alt="StreetCity"
+              />
+            </div>
+            <div class="imagination__img">
+              <img
+                src="./img/Imaginetion/panda.jpg"
+                alt="Panda"
+              />
+            </div>
+            <div class="imagination__img">
+              <img
+                src="./img/Imaginetion/StenaKitai.png"
+                alt="KitaiStena"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="present" class="present">
+      <div class="container">
+        <div class="present__wrapper">
+          <img src="./img/Dvorec.jpg" alt="Dvorec" class="present__img" />
+          <div class="present__block">
+            <h2 class="present__title">Представляем, провинция Хэбэй</h2>
+            <p class="present__des">
+              Провинция расположена в нижнем течении реки Хуанхэ, при впадении
+              её в Желтое море. На севере граничит с провинцией Ляонин и
+              Внутренней Монголией, на западе с провинцией Шаньси, на юге с
+              провинцией Шаньдун. Провинция Хэбэй полностью окружает территории
+              городов центрального подчинения Пекин и Тяньцзинь.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recomendation" class="recomendation">
+      <div class="container">
+        <h2 class="recomendation__title">Рекомендуем для посещения</h2>
+        <span class="imagination__line"></span>
+
+        <div class="recomendation__wrapper">
+          <div class="recomendation__item">
+            <div class="recomendation__block">
+              <img
+                src="./img/Recomendations/SADIPRIDONIA.jpg"
+                alt="SADI"
+                class="recomendation__img"
+              />
+              <p class="recomendation__des">Ботанический сад</p>
+            </div>
+
+            <p class="recomendation__subtitle">
+              Пекинский ботанический сад, здесь имеются экспозиции лекарственных
+              растений, ароматических растений и суккулентов.
+            </p>
+          </div>
+          <div class="recomendation__item">
+            <div class="recomendation__block">
+              <img
+                src="./img/Recomendations/Stenarecomend.jpg"
+                alt="VelikStena"
+                class="recomendation__img"
+              />
+              <p class="recomendation__des">Великая китайская стена</p>
+            </div>
+
+            <p class="recomendation__subtitle">
+              Самая знаменитая достопримечательность Китая, которая имеет общую
+              длину 8850 километров, включая длину траншей и оборонительных
+              барьеров.
+            </p>
+          </div>
+          <div class="recomendation__item">
+            <div class="recomendation__block">
+              <img
+                src="./img/Recomendations/Xram.jpg"
+                alt="Xram"
+                class="recomendation__img"
+              />
+              <p class="recomendation__des">Храм белых облаков</p>
+            </div>
+
+            <p class="recomendation__subtitle">
+              Даосский монастырь храм Белых облаков носит титул «Первого храма
+              под Небесами». В монастыре размещается клиника, где лечат методами
+              традиционной китайской медицины.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="video">
+      <div class="container">
+        <div id="ytplayer" class="ytplayer"></div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__wrapper-des">
+            <img src="./icons/Logo.svg" alt="Logo" class="footer__img"/>
+            <p class="footer__roles">2023 GoGo. Все <br class="down"> права защищены.</p>
+          </div>
+
+          <div class="footer__wrapper-media">
+            <p class="footer__media">Социальные сети</p>
+            <ul class="footer__items">
+              <li class="footer__item">
+                <a
+                  href="https://www.youtube.com/watch?v=Yr9LK4rwHM4&t=36s"
+                  class="footer__link"
+                  >Youtube</a
+                >
+              </li>
+              <li class="open__item">
+                <a href="#recomendation" class="footer__link">Vk</a>
+              </li>
+              <li class="open__item">
+                <a href="#video" class="footer__link">Telegram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
